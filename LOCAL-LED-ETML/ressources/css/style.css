@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@font-face {
+    font-family: 'etml';
+    src: url('../font/etml.woff2') format('woff2'),
+    url('../font/etml.woff') format('woff');,
+    url('../font/etml.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+nav{
+    background-color: #D9D9D9;
+}
+nav .brand-logo{
+	color: #004595;
+	font-family: 'etml', Arial, sans-serif;
+}
+
+.etmlcolor{
+	color: #004595;
+}
+
+footer.page-footer{
+    background-color: #D9D9D9;
+}
+
+.etmlfont
+{
+    font-family: 'etml', Arial, sans-serif;
+}
+
+.tablemargin
+{
+    margin-right: 30px;
+}
+
+td, th
+{
+    padding: 10px 5px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert h4 {
+    margin-top: 0;
+    color: inherit;
+}
+.alert .alert-link {
+    font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+    margin-bottom: 0;
+}
+.alert > p + p {
+    margin-top: 5px;
+}
+.alert-dismissable,
+.alert-dismissible {
+    padding-right: 35px;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert-success hr {
+    border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+    color: #2b542c;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-danger hr {
+    border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+    color: #843534;
+}
